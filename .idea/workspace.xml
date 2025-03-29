@@ -5,19 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e61b80f3-1e1e-48d3-957b-8d15bb343545" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderItemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ashensavi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ashensavi/Ashen-Products-Backend.git&quot;,
+    &quot;accountId&quot;: &quot;46655107-26d9-42f4-8084-217434755660&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2uxRUwFJdiyoEvEaJ01u4cxEO9A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -28,12 +76,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature/setup-entities-dtos",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/iCET/Project Class/EVO-Backend",
     "onboarding.tips.debug.path": "D:/iCET/Final-Project/Ashen-Products-Backend/src/main/java/edu/icet/ecom/Main.java"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="edu.icet.ecom.Main" />
+      <module name="Ashen-Products-Backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +111,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/edu/icet/ecom/Main.java</url>
-          <line>13</line>
+          <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
