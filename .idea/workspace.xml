@@ -4,24 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e61b80f3-1e1e-48d3-957b-8d15bb343545" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderItemEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/ProductEntity.java" afterDir="false" />
+    <list default="true" id="e61b80f3-1e1e-48d3-957b-8d15bb343545" name="Changes" comment="declared the entites and dto's with relationships">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/controller/OrderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/ProductDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderItemEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/ProductEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,7 +48,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/jwt-authentication" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,11 +81,13 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "feature/setup-entities-dtos",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/iCET/Project Class/EVO-Backend",
-    "onboarding.tips.debug.path": "D:/iCET/Final-Project/Ashen-Products-Backend/src/main/java/edu/icet/ecom/Main.java"
+    "onboarding.tips.debug.path": "D:/iCET/Final-Project/Ashen-Products-Backend/src/main/java/edu/icet/ecom/Main.java",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
   <component name="RunManager">
@@ -104,7 +108,20 @@
       <option name="presentableId" value="Default" />
       <updated>1743188259440</updated>
     </task>
+    <task id="LOCAL-00001" summary="declared the entites and dto's with relationships">
+      <option name="closed" value="true" />
+      <created>1743260767758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743260767758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="declared the entites and dto's with relationships" />
+    <option name="LAST_COMMIT_MESSAGE" value="declared the entites and dto's with relationships" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
