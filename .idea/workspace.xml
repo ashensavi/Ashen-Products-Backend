@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e61b80f3-1e1e-48d3-957b-8d15bb343545" name="Changes" comment="declared the entites and dto's with relationships">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/controller/OrderController.java" afterDir="false" />
+    <list default="true" id="e61b80f3-1e1e-48d3-957b-8d15bb343545" name="Changes" comment="updated dtos and entities with proper annotations &amp; validations">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/auth/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/auth/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/auth/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/auth/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/config/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/demo/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderItemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/OrderItemDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/ProductDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/ProductDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderItemEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderItemEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/ProductEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,7 +56,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/jwt-authentication" />
+        <entry key="$PROJECT_DIR$" value="feature/setup-entities-dtos" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,14 +90,23 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "feature/setup-entities-dtos",
+    "git-widget-placeholder": "feature/jwt-authentication",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/iCET/Project Class/EVO-Backend",
+    "last_opened_file_path": "D:/MOS_Burgers/mosburgers-service",
     "onboarding.tips.debug.path": "D:/iCET/Final-Project/Ashen-Products-Backend/src/main/java/edu/icet/ecom/Main.java",
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.icet.ecom.auth" />
+      <recent name="edu.icet.ecom.config" />
+      <recent name="edu.icet.ecom.entity" />
+      <recent name="edu.icet.ecom.enum" />
+      <recent name="edu.icet.ecom" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="edu.icet.ecom.Main" />
